@@ -32,7 +32,7 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
 	// Database
-	//implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.36'
+	implementation files('libs/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar')
 }
 
 tasks.named('test') {
