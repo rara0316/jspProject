@@ -1,16 +1,8 @@
-# My Project
+# Mini Personal Project
 
-Welcome to my project! This project uses the following technologies:
+  Developing a Simple Web Page. My Personal Practice Web Page. We are continuing to add features.
 
-## Tech Stack
-
-<div align="center">
-  <img src="https://img.shields.io/badge/SpringMVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="SpringMVC" style="height:100px; margin-right:10px; width:45%;"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" style="height:100px; width:45%;"/>
-</div>
-
-## Contributors
-
+## Project Producer
 <div align="center">
 <table style="border-collapse: collapse; width: auto; margin: auto;">
   <tr>
@@ -24,3 +16,16 @@ Welcome to my project! This project uses the following technologies:
 </table>
 </div>
 
+## List
+1. [**Project development period**](#project-development-period)
+2. [**Tech Stack**](#tech-stack)
+
+## Project development period
+  The development deadline is indefinite.
+
+## Tech Stack
+<div align="center">
+  <img src="https://img.shields.io/badge/SpringMVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="SpringMVC" style="height:100px; margin-right:10px; width:30%;"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" style="height:100px; width:30%;"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" style="height:100px; width:30%;"/>
+</div>
