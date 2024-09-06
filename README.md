@@ -19,6 +19,7 @@
 ## List
 1. [**Project development period**](#project-development-period)
 2. [**Tech Stack**](#tech-stack)
+3. [**Tech Stack Version**](#tech-stack-version)
 
 ## Project development period
   The development deadline is indefinite.
@@ -30,3 +31,8 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" style="height:100px; width:45%;"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" style="height:100px; width:45%;"/>
 </div>
+
+## Tech Stack Version
+- java : 22.0.2
+- jdbc : 9.0.0.jar
+- css : 5.0 (bootstrap)
