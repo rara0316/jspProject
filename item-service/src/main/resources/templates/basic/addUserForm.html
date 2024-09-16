@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> <!-- 타임리프 사용 선언 -->
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/css/bootstrap.min.css}"
+          href="../css/bootstrap.min.css" rel="stylesheet"> <!-- 절대경로추가 -->
+    <style>
+        .container {
+        max-width: 560px;
+        }
+    </style>
+    <title>addUserForm</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="py-5 text-center">
+        <h2>회원 등록</h2>
+    </div>
+
+    <h4 class="mb-3">회원정보 입력</h4>
+
+    <form action="/basic/infos/add" method="post">
+        <div>
+            <label for="name">회원명</label>
+            <input type="text" id="name" name="name" class="form-control"
+                   placeholder="이름을 입력하세요">
+        </div>
+
+        <div>
+            <label for="introduce">자기소개</label>
+            <input type="text" id="introduce" name="introduce" class="form-control"
+                   placeholder="자기소개를 입력해 주세요">
+        </div>
+
+        <div>
+            <label for="nameNumder">회원번호</label>
+            <input type="text" id="nameNumder" name="nameNumber" class="form-control"
+                   placeholder="회원번호를 입력해 주세요(닉네임)">
+        </div>
+
+        <hr class="my-4">
+        <div class="row">
+            <div class="col">
+                <button class="w-100 btn btn-primary btn-lg" type="submit">회원 등록</button>
+            </div>
+
+            <div class="col">
+                <button class="w-100 btn btn-secondary btn-lg"
+                        onclick="location.href='infos.html'" type="button">취소</button>
+            </div>
+        </div>
+    </form>
+</div> <!-- /container -->
+</body>
+</html>
