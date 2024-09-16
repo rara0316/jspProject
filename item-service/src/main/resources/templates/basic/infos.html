@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> <!-- 타임리프 사용 선언 -->
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/css/bootstrap.min.css}"
+          href="../css/bootstrap.min.css" rel="stylesheet"> <!-- 절대경로추가 -->
+    <title>infos</title>
+</head>
+<body>
+<div class="container" style="max-width: 600px">
+    <div class="py-5 text-center">
+        <h2>회원 목록</h2>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-primary float-end"
+                    onclick="location.href='addUserForm.html'"
+                    th:onclick="|location.href='@{/basic/infos/add}'|"
+                    type="button">회원 등록
+            </button> <!-- 리터럴 대체 문법 -->
+        </div>
+    </div>
+
+    <hr class="my-4">
+    <div>
+        <table class="table" style="width:100%; text-align: center; text-do">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>회원명</th>
+                <th>자기소개</th>
+                <th>회원번호</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                <tr th:each="info : ${infos}">
+                    <td><a style="text-decoration: none;" href="infos.html" th:href="@{/basic/infos/{infoId}(infoId=${info.id})}" th:text="${info.id}">회원ID</a></td>
+                    <td><a style="text-decoration: none;" href="infos.html" th:href="@{|/basic/infos/${info.id}|}" th:text="${info.name}">회원명</a></td>
+                    <td th:text="${info.introduce}">10000</td>
+                    <td th:text="${info.nameNumber}">10</td>
+                </tr>  <!-- 상품 목록 전체(반복문) -->
+            </tbody>
+        </table>
+    </div>
+</div> <!-- /container -->
+</body>
+</html>
